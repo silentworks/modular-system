@@ -1,0 +1,18 @@
+{
+    "name": "silentworks/modular-system",
+    "authors": [
+        {
+            "name": "Andrew Smith",
+            "email": "a.smith@silentworks.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modular\\System\\": "src/"
+        }
+    },
+    "require": {},
+    "scripts": {
+        "cleanup": "sh bin/post-setup.sh"
+    }
+}
