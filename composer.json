@@ -11,7 +11,9 @@
             "Modular\\System\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "twig/twig": "^1.23"
+    },
     "scripts": {
         "cleanup": "sh bin/post-setup.sh"
     }

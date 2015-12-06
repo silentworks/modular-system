@@ -24,7 +24,7 @@ class ModuleB implements ModuleInterface
     public function render() 
     {
         $template = $this->twig->loadTemplate('index.html');
-        echo $template->render([]);
+        return $template->render([]);
     }
 }
 
